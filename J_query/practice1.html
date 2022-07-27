@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practice1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./practice1.js"></script>
+    <link rel="stylesheet" href="./practice1.css">
+</head>
+
+<body>
+
+    <p>1. Test if jQuery is loaded.</p>
+    <p id="first1">click here</p><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>2. Scroll to the top of the page with jQuery.</p>
+
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <p>hello</p>
+    <a href="#" class="scrollTop">Click to top</a><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>4. Disable/enable the form submit button.</p>
+
+    Click : <input type="checkbox" id="checkk"><br>
+    <button id="btn4" disabled="disabled">Click to Sumbmit</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>6. Blink text using jQuery. </p>
+
+    <p class="blink">Yash</p><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>7. Create a Zebra Stripes table effect.</p>
+
+    <table class="tableee">
+        <tr>
+            <th>id</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>yash</td>
+            <td>mangukiya</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Alex</td>
+            <td>patel</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>om</td>
+            <td>patel</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Strom</td>
+            <td>doe</td>
+        </tr>
+    </table><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>8. Print a page using jQuery.</p>
+
+    <button class="print">Click to print page</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>9. Limit character input in the textarea including count</p>
+
+    <textarea id="textarea" maxlength="25"></textarea><br>
+    <span class="aaa">25</span> Character(s) Remaining <br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>10. Make first word bold of all elements.</p>
+
+    <div class="ten">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat</p>
+    </div>
+    <button id="btn10">Click to bold</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>12. Move one DIV element inside another using jQuery.</p>
+
+    <div id="nonSelected" class="firstDiv">
+        <button onclick="moveButton(this)" type="button">Button1</button>
+        <button onclick="moveButton(this)" type="button">Button2</button>
+        <button onclick="moveButton(this)" type="button">Button3</button>
+    </div>
+    <div id="selected" class="secondDiv">
+    </div><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>13. Select values from a JSON object using jQuery.</p>
+
+    <div id="thirteen"></div><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>14.Add a list elements within an unordered list element.</p>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+    <button id="btn14">Click</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>15. Remove all the options of a select box and then add one option and select it.</p>
+
+    <select id="value15">
+        <option value="red">red</option>
+        <option value="yellow">yellow</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+    </select>
+    <button id="btn15">Remove</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>16. Underline all the words of a text using jQuery.</p>
+
+    <div class="sixteen">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat
+        </p>
+    </div>
+    <button id="btn111">Click</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>17.How to get the value of a textbox using jQuery?</p>
+
+    Enter here : <input type="text" id="seventeen"><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>18. Remove all CSS classes using jQuery.</p>
+
+    <div class="eighteen">
+        <p class="eighteen1">hello</p>
+        <p class="eighteen2">world</p>
+        <p class="eighteen3">hiii</p>
+    </div>
+    <button id="btn18">Click to Remove</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>19.Remove style added with .css() function using jQuery.</p>
+
+    <p class="nineteen">Hello</p>
+    <button id="btn19">Click</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>20.Distinguish between left and right mouse click with jQuery.</p>
+
+    <p class="element">Click right and left</p><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>22. How to detect whether the user has pressed 'Enter Key' using jQuery.</p>
+
+    Enter Something : <input type="text"><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>23. Count number of rows and columns in a table using jQuery.</p>
+
+    <table id="tablel">
+        <tr>
+            <th>id</th>
+            <th>Fname</th>
+            <th>Lname</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>yash</td>
+            <td>patel</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Alex</td>
+            <td>patel</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <button id="btn88">Click</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>24.How to get textarea text using jQuery</p>
+
+    <textarea id="area1"></textarea><br><br>
+    <button id="btn24">Click</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>25. Access form input fields using jQuery.</p>
+
+    <form id="myForm">
+        Enter FirstName : <input type="text" name="fname" value="Yash">
+        Enter LirstName : <input type="text" name="lname" value="Mangukiya">
+        <input type="submit" value="Submit">
+    </form><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>26.Find the absolute position of an element using jQuery</p>
+
+    Enter FirstName : <input type="text" name="fname" value="Yash" id="text26">
+    <button id="btn26">Click</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>27. Convert a jQuery object into a string.</p>
+
+    <div id="twentySeven"></div><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>28.How to detect a textbox's content has changed using jQuery? </p>
+
+    Enter FirstName : <input type="text" id="fname" name="fname">
+    Enter LirstName : <input type="text" id="lname" name="lname">
+    <p id="twentyEight"></p><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>29.Remove a specific value from an array using jQuery</p>
+
+    <button id="btn29">Click to remove value</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>30.Change button text using jQuery.</p>
+    <button id="btn30" value="cancle">Click</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>31.Add options to a drop-down list using jQuery.</p>
+
+    <select id="myColor">
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="yellow">yellow</option>
+    </select><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>32. Set background-image using jQuery CSS property.</p>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>33. Delete all table rows except first one using jQuery.</p>
+
+    <table id="thirtyThree">
+        <tr>
+            <th>id</th>
+            <th>Fname</th>
+            <th>Lname</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>yash</td>
+            <td>patel</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Alex</td>
+            <td>patel</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <button id="btn33">Click to delete row</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>34. How to get the selected value and currently selected text of a dropdown box using jQuery?</p>
+
+    <select id="ddid">
+        <option id="op1" value="red">Red</option>
+        <option id="op2" value="green">Green</option>
+        <option id="op3" value="blue">Blue</option>
+        <option id="op4" value="white">White</option>
+    </select>
+    <p id="thirtyFour"></p>
+    <button id="btn34">Click</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>35.Disable a link using jQuery.</p>
+
+    <a href="#">firstLink</a>
+    <a href="#">SecondLink</a>
+    <a href="#">ThirdLink</a>
+    <a href="#">ForthLink</a>
+    <a href="#">FifthLink</a>
+    <button id="btn35">Click to Disable link</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>36. Change a CSS class using jQuery.</p>
+
+    <div class="thirtySix">
+        <p class="st36">first</p>
+        <p class="st36">second</p>
+        <p class="st36">third</p>
+    </div>
+    <button id="btn36">Click to Change css class</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>37.Add a CSS class using jQuery. </p>
+
+    <div class="thirtySeven">
+        <p>first</p>
+        <p>second</p>
+        <p>third</p>
+    </div>
+    <button id="btn37">Click</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>38. Count child elements using jQuery.</p>
+
+    <div id="selected">
+        <p>Red</p>
+        <p>White</p>
+        <p>Green</p>
+        <p>Black</p>
+        <p>Blue</p>
+        <p>Orange</p>
+    </div>
+    <button id="btn38">Click to Count Child</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>39.Restrict "number"-only input for textboxes including decimal points.</p>
+
+    Enter AnyThing : <input type="text" id="number"><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>40.Find the loaded jQuery version.</p>
+
+    <button id="btn40">Click to jQuery version</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>41.Remove a specific table row using jQuery</p>
+
+    <table>
+        <tr id="tr1">
+            <th>id</th>
+            <th>Fname</th>
+            <th>Lname</th>
+        </tr>
+        <tr id="tr2">
+            <td>1</td>
+            <td>yash</td>
+            <td>patel</td>
+        </tr>
+        <tr id="tr3">
+            <td>2</td>
+            <td>Alex</td>
+            <td>patel</td>
+        </tr>
+        <tr id="tr4">
+            <td>3</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <button id="btn41">Click to remove Row</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>42. Set value in input text using jQuery.</p>
+
+    Name : <input type="text" name="name" value="Yash Mangukiya" id="fortyTwo"><br><br>
+    <button id="btn42">Click to change value</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>43. Set a value in a span using jQuery.</p>
+
+    <span id="spanid">hello</span><br><br>
+    <button id="btn43">Click to set span value</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>44. Find the class of the clicked element.</p>
+
+    <ul class="unorderList">
+        <li class="this_is_red_color">red</li>
+        <li class="this_is_black_color">black</li>
+        <li class="this_is_blue_color">blue</li>
+    </ul><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>45. Set href attribute at runtime using jquery.</p>
+
+    <a id="map" href="https://maps.google.com/" target="_blank">Click here</a>
+    <button id="btn45">Click to change href</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>46.Remove disabled attribute using jQuery.</p>
+
+    Male : <input type="checkbox" name="male" disabled="disabled" class="disable">
+    Female : <input type="checkbox" name="female" disabled="disabled" class="disable">
+    <button id="btn46">Click to Enable checkbox</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>47.Find the total width of an element (including width, padding, and border) in jQuery.</p>
+
+    <div class="calculate total">hello</div>
+    <button id="btn47">Click to get total width</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>48.Change options of select using jQuery.</p>
+
+    <select>
+        <option id="c1" value="red">Red</option>
+        <option id="c2" value="green">Green</option>
+        <option id="c3" value="white">White</option>
+        <option id="c4" value="blue">Blue</option>
+    </select><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>49. Access HTML form data using jQuery.</p>
+    
+    <form>
+        FirstName: <input type="text" name="fname" value="yash">
+        LastName : <input type="text" name="lname" value="patel">
+    </form><br>
+    <button id="btn49">Click to Access</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+    <p>50.Add attribute using jQuery.</p>
+
+    Enter Your Name : <input type="text" id="fifty" name="fullname" value="name">
+    <button id="btn50">Click</button><br>
+
+    ---------------------------------------------------------------------------------------------------<br>
+
+</body>
+
+</html>

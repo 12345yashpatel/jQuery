@@ -1,0 +1,99 @@
+.area {
+
+    height: 25px;
+    width: 200px;
+    margin: 15px;
+    resize: none;
+}
+
+.styling {
+    border: 3px solid red;
+}
+
+.five p {
+    margin: 8px;
+    font-size: 16px;
+}
+
+.w3r_font_color {
+    color: red;
+    background-color: yellow;
+}
+
+.six p {
+    margin: 8px;
+    font-size: 16px;
+}
+
+.w3r_font2_color {
+    color: blue;
+}
+
+.w3r_background {
+    background: orange;
+}
+
+.para4 {
+    background: orange;
+}
+
+.para4New {
+    color: red;
+}
+
+.para19 {
+    background-color: #B0E0E6;
+    width: 70px;
+    border: 1px solid red;
+}
+
+.twenty {
+    position: absolute;
+    background-color: #B0E0E6;
+    left: 40px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+
+.position {
+    display: block;
+    padding-bottom: 83px;
+}
+
+.block {
+    position: relative;
+    background-color: #B0E0E6;
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin: 5px;
+}
+
+.divBlock {
+    background: #B0E0E6;
+    border: 1px solid #e30ae8;
+    width: 20px;
+    height: 30px;
+    margin: 0 5px;
+    float: left;
+}
+
+.divBlockColor {
+    background: #000000;
+}
+.marked {
+    background-color: red;
+    color: blue;
+}
+.managed div {
+    background: red;
+    border: 1px solid #e30ae8;
+    width: 20px;
+    height: 30px;
+    margin: 0 5px;
+    float: left;
+}
+.managed div.colored {
+    background: blue;
+  }

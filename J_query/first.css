@@ -1,0 +1,19 @@
+.blink {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+} 
+.table,td,th {
+    border: 1px solid black;
+    width: 100px;
+    border-collapse: collapse;
+}
+.style {
+    background-color: red;
+}
+textarea {
+    height: 20px;
+    width: 200px;
+    display: block;
+    resize: none;
+}

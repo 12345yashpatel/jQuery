@@ -1,0 +1,94 @@
+.blink {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+.tableee,
+td,
+th {
+    border: 1px solid black;
+    width: 100px;
+    border-collapse: collapse;
+}
+
+.style {
+    background-color: red;
+}
+
+.textareaDemo {
+    height: 20px;
+    width: 200px;
+    display: block;
+    resize: none;
+}
+
+.firstDiv {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: left;
+    width: 50%;
+}
+
+.secondDiv {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: left;
+    width: 49%;
+}
+
+.sixteen p span {
+    text-decoration: underline;
+}
+
+.eighteen1 {
+    color: red;
+    background-color: blue;
+}
+
+.eighteen2 {
+    color: yellow;
+    background-color: gray;
+}
+
+.eighteen3 {
+    color: pink;
+    background-color: lightblue;
+}
+.nineteen {
+    font-size: 30px;
+    color: red;
+    border: 4px solid black;
+}
+.st36 {
+    color: red;
+    font-size: 25px;
+}
+.st236 {
+    color: blue;
+    font-size: 30px;
+    font-weight: 900;
+}
+.calculate {
+    padding: 50px;
+    margin: 50px;
+    border: 3px solid red;
+}
+.modify {
+    padding: 15px;
+    margin: 10px;
+    background-color: skyblue;
+    border-radius: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+#imageee {
+    width: 100px;
+}

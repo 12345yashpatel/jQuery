@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./first.js"></script>
+
+    <style>
+        .st1,
+        .st2,
+        .st3 {
+            background-color: red;
+            margin: 25px;
+            width: 80%;
+            padding: 20px;
+            display: none;
+        }
+
+        .ff1 {
+            display: none;
+            background-color: yellow;
+            padding: 30px 30px 30px 30px;
+            width: 30%;
+            text-align: center;
+        }
+
+        .divv1,
+        .divv2 {
+            background-color: yellow;
+            width: 150px;
+            height: 150px;
+            border: 1px solid red;
+        }
+
+        .addpclass {
+            color: blue;
+            font-size: 20px;
+        }
+
+        .divWithp {
+            color: green;
+            font-size: 30px;
+        }
+
+        .fir {
+            background-color: yellow;
+            padding: 15px 5px 15px 5px;
+            margin: 11px 5px 11px 5px;
+            border: 2px solid black;
+        }
+
+        .ajax {
+            border: 2px solid black;
+            background-color: lightblue;
+            color: black;
+            width: auto;
+            height: auto;
+        }
+
+        .dd,
+        .dd1,
+        .dd2,
+        .dd3,
+        .hh,
+        .hh1,
+        .hh2 {
+            border: 5px solid green;
+            padding: 5px;
+            margin: 15px;
+            width: 150px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <p>hide this element</p>
+    <p>hide this one</p>
+    <p>also hide this one</p>
+    <button class="b1">Hide</button>
+    <button class="b2">Show</button><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <!-- toggle used to shown element are hidden and hidden element are shown -->
+    <p class="togle">hide this with toggle</p>
+    <p style="font-size: 25px ; color:red;" class="togle">toggle used to shown element are hidden and hidden element are
+        shown</p>
+    <button id="b1">Toggle</button><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <!-- FadeIn() -->
+
+    <div class="st1"></div>
+    <div class="st2"></div>
+    <div class="st3"></div>
+
+    <button class="btn1">fadeIn</button><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <button class="btn2">Click to FadeIn or FadeOut</button>
+    <div class="ff1">Hello this is fadein and fadeout</div><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <p id="p1">Hello yash</p>
+    <button id="btn3">Click</button>
+    <input type="text" id="input1" value="yash mangukiya">
+    <button id="btn4">Click</button><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <p id="p2"> this is paragraph</p>
+    <ol>
+        <li> first</li>
+        <li> first</li>
+        <li> first</li>
+    </ol>
+    <button id="btn5">append</button>
+    <button id="btn6">append list</button><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <div class="divv1">
+        <p>hello this is one</p>
+        <p>hello this is two</p>
+        <p>hello this is three</p>
+        <p>hello this is four</p>
+    </div>
+    <button id="remove">Remove</button><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <!-- remove with class -->
+
+    <div class="divv2">
+        <p class="re1">one</p>
+        <p class="re2">two</p>
+        <p id="re3">three</p>
+        <p id="re4">four</p>
+    </div>
+    <button id="btn7">Remove element with id & class</button><br><br>
+
+    <!-- add class-->
+
+    <p class="pp">hello this is first</p>
+    <p class="ppp">hello this is second</p>
+    <p class="pppp">hello this is third</p>
+    <div class="divp">helo this is div with p tag</div>
+    <button id="btn8">Click to add class</button><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <div>ancestor
+        <ul>grandparent
+            <li>parent
+                <span>child</span>
+            </li>
+        </ul>
+    </div><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <div class="fir">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat
+        </p>
+    </div>
+    <div class="fir">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat
+        </p>
+    </div>
+    <div class="fir">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat
+        </p>
+    </div>
+
+    <button id="btn9">Click to get First</button><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <div id="eq">
+        <p>first</p>
+        <p>two</p>
+        <p>three</p>
+        <p>four</p>
+        <p>five</p>
+    </div>
+    <button id="btn10">Click to EQ</button><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <!-- ajax call -->
+    <div class="ajax">
+        <p class="store"></p>
+    </div>
+    <button id="btn11">Click to call ajax</button><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <div class="dd"> 1
+        <div class="dd1"> 2
+            <ul class="dd2"> 3
+                <li class="dd3"> 4
+                    <p class="hh">5</p>
+                    <p class="hh1">6</p>
+                    <p class="hh2">7</p>
+                </li>
+            </ul>>
+        </div>
+    </div><br><br>
+
+    -----------------------------------------------------------------------------------------------<br><br>
+
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum</p>
+        <button id="btn12">Click</button>
+
+</body>
+
+</html>
